@@ -24,4 +24,4 @@ jobs:
       run: npm install -D @playwright/test
            npx playwright install
     - name: Execute the UI tests
-      run: npx playwright test tests/ui.test.js
+      run: npx playwright test test/todo.test.js
