@@ -25,6 +25,6 @@ jobs:
     - name: Install playwright 
       run: npm install -D @playwright/test
     - name: Start the app
-      run: npm run start
+      run: npm run start &
     - name: Execute the UI tests
       run: npx playwright test
